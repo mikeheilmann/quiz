@@ -3,7 +3,17 @@ header {
     color: black;
 }
 
+h1 {
+    text-align: center;
+    color: black;
+}
+
 p {
     text-align: center;
     color: black;
-  }
+}
+
+footer {
+    text-align: right;
+    color: black;
+}
