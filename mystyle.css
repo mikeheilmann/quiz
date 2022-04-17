@@ -1,13 +1,10 @@
-div {
+body {
+    
+
     margin: 20px;
-    border: 0px;
+    border: 100px black;
     padding: 0px;
     width: 300px;
-}
-
-body {
-    background-image:  url("Worship vector 6.png");
-    background-position: center;  
 }
 
 header { 
