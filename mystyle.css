@@ -1,8 +1,11 @@
 body {
-    /*background-image:  url("Worship vector 6.png");
-    background-position: center;*/
-
+    width: 700;
+    border: 15px solid green;
+    padding: 50px;
+    margin: 20px;
     
+    background-image:  url("Worship vector 6.png");
+    background-position: center;
 }
 
 header { 
