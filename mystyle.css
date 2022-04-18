@@ -9,8 +9,8 @@ body {
     background-size: 1500px 1500px;
 }
 
-header { 
-    text-align: center;
+.ueberschrift { 
+    text-align: right;
     color: black;
 }
 
