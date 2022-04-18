@@ -16,13 +16,11 @@ body {
     color: rgba(255, 0, 0, 1);
 }
 
-p {
+p,
+h1 
+{
     text-align: center;
     color: black;
-}
-
-h1 {
-    text-align: center;
 }
 
 footer {
