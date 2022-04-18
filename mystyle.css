@@ -14,11 +14,12 @@ body {
 .ueberschrift { 
     text-align: center;
     color: rgba(255, 0, 0, 1);
+
+    font-family: "Lucida Console", Courier, monospace;
 }
 
 p,
-h1 
-{
+h1 {
     text-align: center;
     color: black;
 }
