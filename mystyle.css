@@ -7,10 +7,12 @@ body {
     background-image:  url("Worship vector 6.png");
     background-position: center;
     background-size: 1500px 1500px;
+
+    opacity: 0.5;
 }
 
 .ueberschrift { 
-    text-align: right;
+    text-align: center;
     color: black;
 }
 
@@ -21,15 +23,14 @@ p {
 
 h1 {
     text-align: center;
-    color: black;
 }
 
 footer {
     text-align: right;
-    color: black;
 }
 
 
 #bla{
     text-align: center;
+    color: black;
 }
