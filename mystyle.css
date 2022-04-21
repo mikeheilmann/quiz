@@ -11,7 +11,7 @@ body {
     opacity: 1;
 }
 
-.ueberschrift { 
+.Ueberschrift { 
     text-align: center;
     color: rgba(255, 0, 0, 1);
 
@@ -29,7 +29,7 @@ footer {
 }
 
 
-#bla{
+p#einsatz{
     text-align: center;
     color: black;
 }
