@@ -4,7 +4,13 @@ body {
     padding: 20px;
     margin: 20px;
 
-    background: url("Worship vector 6.png");
+    background-image: url("Worship vector 6.png");
+    background-image: -webkit-image-set(
+        url("Worship vector 6.png") 1x,
+        url("Worship vector 6.png") 2x);
+    background-image: image-set(
+        url("Worship vector 6.png") 1x,
+        url("Worship vector 6.png") 2x);
     background-position: center;
     background-size: cover;
     
