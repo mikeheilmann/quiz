@@ -38,3 +38,7 @@ p#einsatz{
 [href]:hover {
     font-size: 1.3em;
 }
+
+h1:hover{
+    font-size: 2em;
+}
