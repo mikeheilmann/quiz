@@ -30,7 +30,7 @@ footer {
 }
 
 
-p#einsatz{
+p#einsatz {
     text-align: center;
     color: black;
 }
@@ -39,6 +39,6 @@ p#einsatz{
     font-size: 1.3em;
 }
 
-h1:hover{
+h1:hover {
     font-size: 2em;
 }
