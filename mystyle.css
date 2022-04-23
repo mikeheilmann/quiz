@@ -42,6 +42,6 @@ h2:hover {
     font-size: 2em;
 }
 
-footer:hover{
-   
+footer:first-line{
+    font-size: 2em;
 }
