@@ -4,10 +4,10 @@ body {
     padding: 20px;
     margin: 20px;
 
-    background-image:  url("Worship vector 6.png");
+    background: url("Worship vector 6.png");
     background-position: center;
-    background-size: 1500px 1500px;
-
+    background-size: cover;
+    
     opacity: 1;
 }
 
@@ -43,5 +43,5 @@ footer:first-line{
 }
 
 #jetzt::first-letter{
-    background-color: green;
+    background-color: red;
 }
