@@ -51,3 +51,7 @@ footer:first-line{
 #jetzt::first-letter{
     background-color: red;
 }
+
+p:last-child{
+    background-color: red;
+}
