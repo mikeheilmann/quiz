@@ -1,8 +1,17 @@
+@keyframes pulse {
+    20% {
+      border: 60px;
+    }
+}
+
 body {
-    width: fit-content;
+    width: 200;
     border: 20px solid #000000;
     padding: 20px;
     margin: 20px;
+    animation: pulse 3s;
+    animation-iteration-count: infinite;
+    
 
     background-image: url("Worship vector 6.png");
     background-image: -webkit-image-set(
@@ -11,9 +20,9 @@ body {
     background-image: image-set(
         url("Worship vector 6.png") 1x,
         url("Worship vector 6.png") 2x);
+
     background-position: center;
     background-size: cover;
-    
     opacity: 1;
 }
 
@@ -21,7 +30,6 @@ body {
 .Ueberschrift { 
     text-align: center;
     color: rgba(255, 0, 0, 1);
-
     font-family: "Lucida Console", Courier, monospace;
 }
 
@@ -29,7 +37,7 @@ p,
 h1 {
     text-align: center;
     color: black;
-    transition: border 3s ease;
+    
 }
 
 footer {
@@ -38,7 +46,8 @@ footer {
 
 p#einsatz {
     text-align: center;
-    color: black;
+    color: green;
+    
 }
 
 [href]:hover {
