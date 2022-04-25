@@ -1,14 +1,14 @@
-@keyframes pulse {
+/*@keyframes pulse {
     20% {
       border: 60px;
     }
-}
+}*/
 
 body {
     width: 200;
-    border: 20px solid #000000;
-    padding: 20px;
-    margin: 20px;
+    border: 2em solid #000000;
+    padding: 2em;
+    margin: 2em;
     animation: pulse 3s;
     animation-iteration-count: infinite;
     
