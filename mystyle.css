@@ -1,5 +1,5 @@
 body {
-    width: 500;
+    width: fit-content;
     border: 20px solid #000000;
     padding: 20px;
     margin: 20px;
@@ -29,6 +29,7 @@ p,
 h1 {
     text-align: center;
     color: black;
+    transition: border 3s ease;
 }
 
 footer {
@@ -52,6 +53,6 @@ footer:first-line{
     background-color: red;
 }
 
-p:last-child{
+#transition:hover{
     
 }
