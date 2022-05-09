@@ -16,12 +16,11 @@ body {
     background-size: cover;
 }
 
-p,
-h1,
-header {
+header,
+h2,
+p {
     text-align: center;
     color: black;
-    
 }
 
 header{
