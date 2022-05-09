@@ -1,16 +1,8 @@
-@keyframes pulse {
-    20% {
-      border: 60px;
-    }
-}
-
 body {
     width: 200;
-    border: 2em solid #000000;
+    border: 2em;
     padding: 2em;
     margin: 2em;
-    animation: pulse 3s;
-    animation-iteration-count: infinite;
     
     background-image: url("Worship vector 6.png");
     background-image: -webkit-image-set(
@@ -59,8 +51,4 @@ footer:first-line{
 
 #jetzt::first-letter{
     background-color: red;
-}
-
-#transition:hover{
-    
 }
