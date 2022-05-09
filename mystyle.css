@@ -1,8 +1,8 @@
 body {
+    margin: 1em;
+    border: 1em;
+    padding: 1em;
     width: 200;
-    border: 2em;
-    padding: 2em;
-    margin: 2em;
     
     background-image: url("Worship vector 6.png");
     background-image: -webkit-image-set(
@@ -14,41 +14,25 @@ body {
         
     background-position: center;
     background-size: cover;
-    opacity: 1;
-}
-
-#werdereich,
-.Ueberschrift { 
-    text-align: center;
-    color: rgba(255, 0, 0, 1);
-    font-family: "Lucida Console", Courier, monospace;
 }
 
 p,
-h1 {
+h1,
+header {
     text-align: center;
     color: black;
     
 }
 
-footer {
-    text-align: right;
+header{
+    font-size: 2em;
 }
 
-p#einsatz {
-    text-align: center;
-    color: green;
-    
+footer {
+    text-align: right;
+    font-size: 0.5em;
 }
 
 [href]:hover {
     font-size: 2em;
-}
-
-footer:first-line{
-    font-size: 0.5em;
-}
-
-#jetzt::first-letter{
-    background-color: red;
 }
