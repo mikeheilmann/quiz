@@ -1,5 +1,5 @@
 * {
-    font-family: Arial;  
+    font-family: Arial;
 }
 
 body {
@@ -9,8 +9,6 @@ body {
     width: 100vw;
     height: 100vh;
 
-    
-
     background-image: url("Worship vector 6.png");
     background-image: -webkit-image-set(
         url("Worship vector 6.png") 1x,
@@ -19,8 +17,8 @@ body {
         url("Worship vector 6.png") 1x,
         url("Worship vector 6.png") 2x);
         
-    background-position: center;
     background-size: cover;
+    background-position: center;
 }
 
 h2,
@@ -48,3 +46,7 @@ button:hover{
 button {
     
 }
+
+/*display: flex;
+    justify-content: center;
+    align-items: center;*/
