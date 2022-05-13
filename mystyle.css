@@ -2,10 +2,9 @@ body {
     margin: 0;
     border: 0;
     padding: 0;
-    width: 200;
-    height: 1;
+    width: 100vw;
+    height: 100vh;
 
-    
     background-image: url("Worship vector 6.png");
     background-image: -webkit-image-set(
         url("Worship vector 6.png") 1x,
@@ -21,17 +20,14 @@ body {
 h2,
 p {
     text-align: center;
-    color: black;
 }
 
 header{
     text-align: center;
-    color: black;
     font-size: 2em;
 }
 
 footer {
     text-align: right;
-    color: black;
     font-size: 0.5em;
 }
