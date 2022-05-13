@@ -39,14 +39,10 @@ footer {
     width: 100%;
 }
 
-button:hover{
+button:hover {
     cursor:pointer;
 }
 
-button {
-    
+#Frage{
+    text-align: right;
 }
-
-/*display: flex;
-    justify-content: center;
-    align-items: center;*/
