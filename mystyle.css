@@ -9,6 +9,8 @@ body {
     width: 100vw;
     height: 100vh;
 
+    
+
     background-image: url("Worship vector 6.png");
     background-image: -webkit-image-set(
         url("Worship vector 6.png") 1x,
@@ -44,7 +46,5 @@ button:hover{
 }
 
 button {
-    display: flex;
-    justify-content: center;
-    align-content: center;
+    
 }
