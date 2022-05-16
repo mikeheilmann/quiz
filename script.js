@@ -15,9 +15,10 @@ function beendenSpiel(){
 }
 
 function zeigeFrage(){
-
+    
 }
 
 function waehleAntwort(){
 
 }
+
