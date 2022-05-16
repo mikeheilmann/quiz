@@ -7,10 +7,14 @@ function startenSpiel(){
 }
 
 function weiterFrage(){
-
+    zeigeFrage();
 } 
 
 function beendenSpiel(){
+
+}
+
+function zeigeFrage(){
 
 }
 
