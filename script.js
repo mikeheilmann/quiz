@@ -19,7 +19,7 @@ function zeigeFrage(){
 function waehleAntwort(){
 }
 
-let fragen=[
+const fragen=[
     {
         frage: "Was ist 1+1 ?",
         antwort: {
