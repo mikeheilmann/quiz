@@ -2,16 +2,16 @@ const startKnopf=document.getElementById("startKnopf");
 const weiterKnopf=document.getElementById("weiterKnopf");
 const beendenKnopf=document.getElementById("beendenKnopf");
 
-const richtigKnopf=document.getElementById("richtigKnopf");
-const falschKnopf=document.getElementById("richtigKnopf");
+const antwort1Knopf=document.getElementById("richtigKnopf");
+const antwort2Knopf=document.getElementById("richtigKnopf");
 
 
 startKnopf.addEventListener("click",startenSpiel);
 weiterKnopf.addEventListener();
 beendenKnopf.addEventListener();
 
-richtigKnopf.addEventListener();
-falschKnopf.addEventListener();
+antwort1Knopf.addEventListener();
+antwort2Knopf.addEventListener();
 
 
 function startenSpiel(){
@@ -33,19 +33,14 @@ function waehleAntwort(){
 const fragen=[
     {
         frage: "Was ist 1+1 ?",
-        antwort: {
-            a: "2",
-            b: "11"
-        },
-        richtigeAntwort: "a"
-    },
+        antwort:[ 
+        {}
+        {}
+    ]
     {
         frage: "Was ist 2*2 ?",
         antwort: {
-            a: "4",
-            b: "22"
-        },
-        richtigeAntwort: "a"
+            
     }
 ];
 
