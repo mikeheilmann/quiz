@@ -1,24 +1,18 @@
 const startKnopf=document.getElementById("startKnopf");
-const weiterKnopf=document.getElementById("weiterKnopf");
 const beendenKnopf=document.getElementById("beendenKnopf");
-
-const antwort1Knopf=document.getElementById("richtigKnopf");
-const antwort2Knopf=document.getElementById("richtigKnopf");
+const frage = document.getElementById("frage");
+const antwort1Knopf=document.getElementById("antwort1Knopf");
+const antwort2Knopf=document.getElementById("antwort2Knopf");
 
 
 startKnopf.addEventListener("click",startenSpiel);
-weiterKnopf.addEventListener();
-beendenKnopf.addEventListener();
+beendenKnopf.addEventListener("click",beendenSpiel);
 
 antwort1Knopf.addEventListener();
 antwort2Knopf.addEventListener();
 
 
-function startenSpiel(){
-
-}
-
-
+let frageMomentan=0;
 const fragen=[
     {
         frage: "Was ist 1+1 ?",
@@ -35,3 +29,17 @@ const fragen=[
         ]
     }
 ];
+
+
+function startenSpiel(){
+    frage.innerHTML=fragen[frageMomentan].frage;
+
+}
+
+function 
+
+
+function beendenSpiel(){
+
+}
+
