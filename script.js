@@ -18,29 +18,20 @@ function startenSpiel(){
 
 }
 
-function weiterFrage(){
-} 
-
-function beendenSpiel(){
-}
-
-function zeigeFrage(){
-}
-
-function waehleAntwort(){
-}
 
 const fragen=[
     {
         frage: "Was ist 1+1 ?",
-        antwort:[ 
-        {}
-        {}
-    ]
+        antworten: [
+            {antwort1: "2", antwort: true},
+            {antwort2: "11", antwort: false},
+        ]
+    },
     {
         frage: "Was ist 2*2 ?",
-        antwort: {
-            
+        antworten: [
+            {antwort1: "4", antwort: true},
+            {antwort2: "22", antwort: false},
+        ]
     }
 ];
-
