@@ -1,13 +1,24 @@
-let startKnopf=document.getElementById("startKnopf");
+const startKnopf=document.getElementById("startKnopf");
+const weiterKnopf=document.getElementById("weiterKnopf");
+const beendenKnopf=document.getElementById("beendenKnopf");
+
+const richtigKnopf=document.getElementById("richtigKnopf");
+const falschKnopf=document.getElementById("richtigKnopf");
+
 
 startKnopf.addEventListener("click",startenSpiel);
+weiterKnopf.addEventListener();
+beendenKnopf.addEventListener();
+
+richtigKnopf.addEventListener();
+falschKnopf.addEventListener();
+
 
 function startenSpiel(){
-    weiterFrage();
+
 }
 
 function weiterFrage(){
-    zeigeFrage();
 } 
 
 function beendenSpiel(){
